@@ -1,0 +1,19 @@
+package com.example.dummyProject.resources;
+
+import java.util.Arrays;
+import java.util.List;
+
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+
+@Path("/")
+public class EmployeeResource {
+	
+	@Path("/names")
+	@GET
+	public List<String> getEmployee(){
+		List<String> names = Arrays.asList("Krishnendu","Riju","Samanta");
+		return names;
+	}
+
+}

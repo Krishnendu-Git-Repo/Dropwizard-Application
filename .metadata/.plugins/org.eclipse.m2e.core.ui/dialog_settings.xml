@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\SentientGeeks_Projects\dropwizard-mysql-crud-example-master"/>
 			<item value="D:\SentientGeeks_Projects\FirstProject"/>
 		</list>
 		<list key="projectNameTemplate">

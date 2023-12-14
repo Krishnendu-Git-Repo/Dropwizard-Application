@@ -1,5 +1,6 @@
 package com.practice.userService.resources;
 
+import java.util.List;
 import java.util.Optional;
 
 import com.practice.userService.core.Employee;
@@ -25,7 +26,7 @@ public class UserResource {
 	@Path("/name")
 	@GET
 	public String name() {
-		return "Krishnendu Samanta !!";
+		return " << JAVA >> ";
 	}
 
 	@GET
@@ -40,5 +41,12 @@ public class UserResource {
 			return Optional.empty();
 		}
 	}
+	
+	@GET
+	@Path("/all")
+	@UnitOfWork
+	public List<Employee> findAll(){
+		return employeeDAO.findAll();
+		}
 
 }

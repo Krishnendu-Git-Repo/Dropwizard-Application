@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\SentientGeeks_Projects\dropwizard-mysql-crud-example-master"/>
 			<item value="D:\SentientGeeks_Projects\FirstProject"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -39,14 +40,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.task.projectManagementSystem"/>
 			<item value="com.practice.userService"/>
 			<item value="com.example.dummyProject"/>
 		</list>
 		<list key="groupId">
+			<item value="com.task"/>
 			<item value="com.practice"/>
 			<item value="com.example"/>
 		</list>
 		<list key="artifactId">
+			<item value="projectManagementSystem"/>
 			<item value="userService"/>
 			<item value="dummyProject"/>
 		</list>
